@@ -1,0 +1,23 @@
+{
+  "name": "Portway Slack Webhook",
+  "description": "Publish documents from Portway to Slack",
+  "repository": "https://github.com/portway/portway-slack-webhook",
+  "logo": "https://avatars2.githubusercontent.com/u/62402450?s=200&v=4",
+  "keywords": [
+    "node",
+    "sails",
+    "portway",
+    "slack",
+    "webhook",
+    "bonkeybong"
+  ],
+  "env": {
+    "NODE_ENV": {
+      "description": "Set the node environment",
+      "value": "production"
+    },
+    "sails_custom__slackIncomingWebhookURL": {
+      "description": "Set the Slack incoming webhook URL"
+    }
+  }
+}
